@@ -1,4 +1,4 @@
 'use client';
-export default function ContactPageClient() {
-  return <main><p>Contact — UI coming soon</p></main>;
+export default function PageClient(_props: Record<string, unknown>) {
+  return <main><p>UI coming soon</p></main>;
 }
