@@ -2,15 +2,15 @@
  * Site configuration
  */
 export const siteConfig = {
-  name: 'PDFCraft',
+  name: 'OOSPDF',
   description: 'Professional PDF Tools - Free, Private & Browser-Based. Merge, split, compress, convert, and edit PDF files online without uploading to servers.',
-  url: 'https://pdfcraft.devtoolcafe.com',
+  url: 'https://oospdf.ir',
   ogImage: '/images/og-image.png',
   links: {
-    github: 'https://github.com/PDFCraftTool/pdfcraft',
-    twitter: 'https://twitter.com/pdfcraft',
+    github: 'https://github.com/moeinA/oospdf',
+    twitter: '',
   },
-  creator: 'PDFCraft Team',
+  creator: 'OOSPDF Team',
   keywords: [
     'PDF tools',
     'PDF editor',
@@ -25,9 +25,9 @@ export const siteConfig = {
   ],
   // SEO-related settings
   seo: {
-    titleTemplate: '%s | PDFCraft',
-    defaultTitle: 'PDFCraft - Professional PDF Tools',
-    twitterHandle: '@pdfcraft',
+    titleTemplate: '%s | OOSPDF',
+    defaultTitle: 'OOSPDF - Professional PDF Tools',
+    twitterHandle: '',
     locale: 'en_US',
   },
 };
