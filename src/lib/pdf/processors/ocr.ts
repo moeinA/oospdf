@@ -18,7 +18,7 @@ import { loadPdfjs, loadPdfLib } from '../loader';
 /**
  * Supported OCR languages
  */
-export type OCRLanguage = 'eng' | 'chi_sim' | 'chi_tra' | 'jpn' | 'kor' | 'spa' | 'fra' | 'deu' | 'por' | 'ara';
+export type OCRLanguage = 'eng' | 'fas' | 'chi_sim' | 'chi_tra' | 'jpn' | 'kor' | 'spa' | 'fra' | 'deu' | 'por' | 'ara';
 
 /**
  * OCR options
@@ -52,6 +52,7 @@ const DEFAULT_OPTIONS: OCROptions = {
  */
 export const OCR_LANGUAGE_NAMES: Record<OCRLanguage, string> = {
   eng: 'English',
+  fas: 'Persian (فارسی)',
   chi_sim: 'Chinese (Simplified)',
   chi_tra: 'Chinese (Traditional)',
   jpn: 'Japanese',
